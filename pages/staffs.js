@@ -34,22 +34,22 @@ export default Staffs;
 
 
 function Cards(props) {
-    return (<div class="mx-auto right-0 mt-2 w-60 m-10">
-        <div class="bg-black rounded-lg shadow-md mix-blend-screen shadow-red-600">
+    return (<div className="mx-auto right-0 mt-2 w-60 m-10">
+        <div className="bg-black rounded-lg shadow-md mix-blend-screen shadow-red-600">
             <div class="text-center p-6 bg-black border-b">
                 <div className="flex -space-x-1  sm:justify-center pb-2 pt-2 ">
                     <img className=" rounded-full w-20 ring-2" src={props.pfp} alt="" />
 
                 </div>
-                <p class="pt-2 text-lg font-semibold text-gray-50">{props.name}</p>
-                <p class="text-sm text-gray-100">{props.position}</p>
+                <p className="pt-2 text-lg font-semibold text-gray-50">{props.name}</p>
+                <p className="text-sm text-gray-100">{props.position}</p>
 
             </div>
 
 
-            <div class="">
+            <div className="">
                 <button href="#" class="w-full px-4 py-2 pb-4  flex">
-                    <p class="text-sm font-medium text-gray-400 leading-none text-start">{props.dep}
+                    <p className="text-sm font-medium text-gray-400 leading-none text-start">{props.dep}
                     </p>
                 </button>
             </div>
